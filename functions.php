@@ -22,4 +22,4 @@ function calcProcessTime() {
 	}
 }
 
-calcProcessTime();
+add_action( 'init', 'calcProcessTime' );
